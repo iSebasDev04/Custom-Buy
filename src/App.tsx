@@ -28,6 +28,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+
+      <h3 className='bg-blue-200'>Prueba de funcion de tailwindcss</h3>
     </>
   )
 }
