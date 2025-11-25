@@ -7,15 +7,15 @@ export default function NavigationButtons() {
     <div className="w-full max-w-xl flex justify-between">
       <button
         onClick={() => navigate('/')}
-        className="bg-gray-300 text-gray-700 px-4 py-2 rounded hover:bg-gray-400"
+        className="px-6 py-2 rounded-full text-md font-semibold text-[#E25D8E] bg-transparent transition-all duration-300 border border-[#E25D8E] hover:bg-[#E25D8E]/10 ml-4"
       >
         Cancelar
       </button>
       <button
         onClick={() => navigate('/cita')}
-        className="bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600"
+        className="px-6 py-2 rounded-full text-md font-semibold bg-[#27C7A9] text-white shadow-md transition-all duration-300 border border-[#27C7A9]"
       >
-        Continuar a siguiente cita
+        Continuar y generar cita
       </button>
     </div>
   );

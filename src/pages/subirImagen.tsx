@@ -1,11 +1,11 @@
-import ImageDropzone from '../components/zonaDeImagen';
-import ProductForm from '../components/formularioProducto';
-import NavigationButtons from '../components/botonesFormulario';
+import ImageDropzone from '../components/paginaFormulario/zonaDeImagen';
+import ProductForm from '../components/paginaFormulario/formularioProducto';
+import NavigationButtons from '../components/paginaFormulario/botonesFormulario';
 
 export default function subirImagen() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-100 to-blue-100 p-6 flex flex-col items-center">
-      <h1 className="text-2xl font-semibold text-center mb-6 text-pink-600">Sube tu diseño</h1>
+    <div className="min-h-screen bg-gradient-to-br from-[#FFF5F0] to-[#E0F7FA] p-6 flex flex-col items-center">
+      <h1 className="text-5xl font-extrabold text-[#D87093] mb-2 tracking-tight">Sube tu diseño</h1>
       <ImageDropzone />
       <ProductForm />
       <NavigationButtons />

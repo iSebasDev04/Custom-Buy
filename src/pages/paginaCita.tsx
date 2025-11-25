@@ -10,8 +10,8 @@ export default function CitaPage() {
   const [paymentMethod, setPaymentMethod] = useState<string | null>(null);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-100 to-pink-100 p-6 flex flex-col items-center">
-      <h1 className="text-2xl font-semibold text-center mb-6 text-blue-600">Selecciona tu cita</h1>
+    <div className="min-h-screen bg-gradient-to-br from-[#FFF5F0] to-[#E0F7FA] p-6 flex flex-col items-center">
+      <h1 className="text-5xl font-extrabold text-[#D87093] mb-2 tracking-tight">Selecciona tu cita</h1>
       <div className="flex flex-col md:flex-row gap-6 w-full max-w-5xl">
         <Calendario selectedDate={selectedDate} setSelectedDate={setSelectedDate} />
         <div className="flex flex-col gap-4 flex-1">

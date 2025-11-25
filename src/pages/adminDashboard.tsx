@@ -10,8 +10,8 @@ export default function AdminDashboard() {
   const [activeTab, setActiveTab] = useState<'Pedidos' | 'Citas' | 'Pagos'>('Pedidos');
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
-      <h1 className="text-3xl font-bold text-pink-600 mb-6 text-center">Panel Administrativo</h1>
+    <div className="bg-gradient-to-br from-[#FFF5F0] to-[#E0F7FA] p-6">
+      <h1 className="text-5xl font-extrabold text-[#D87093] mb-2 tracking-tight text-center">Panel Administrativo</h1>
 
       {/* Estadisticas */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">

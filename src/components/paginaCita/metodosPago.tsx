@@ -14,10 +14,10 @@ export default function metodosPago({ selected, setSelected }: Props) {
           <button
             key={method}
             onClick={() => setSelected(method)}
-            className={`border rounded px-4 py-2 text-sm ${
+            className={`border rounded px-6 py-2 text-md font-semibold text-[#E25D8E] ${
               selected === method
                 ? 'bg-pink-500 text-white'
-                : 'bg-white hover:bg-pink-100'
+                : 'bg-transparent border border-[#E25D8E] hover:bg-[#E25D8E]/10'
             }`}
           >
             {method}

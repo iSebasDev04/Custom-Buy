@@ -12,8 +12,8 @@ export default function selectorContenido({ active, setActive }: Props) {
         <button
           key={tab}
           onClick={() => setActive(tab)}
-          className={`px-4 py-2 rounded-full font-medium ${
-            active === tab ? 'bg-pink-500 text-white' : 'bg-white text-pink-500 border border-pink-500'
+          className={`px-6 py-2 rounded-full text-md font-semibold text-[#E25D8E] border-[#E25D8E] hover:bg-[#E25D8E]/10 ${
+            active === tab ? 'bg-[#E25D8E] text-white' : 'bg-white text-pink-500 border border-pink-500'
           }`}
         >
           {tab}
